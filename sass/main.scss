@@ -1,0 +1,41 @@
+$sea_color: #2aa7cb;
+
+body{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: #4a4a4a;
+}
+.container{
+	h1{
+		color: $sea_color;
+		font-size: 48px;
+	}
+	label{
+		display: block;
+		margin-top: 24px; 
+	}
+	input{
+		width: 317px;
+		height: 40px;
+	}
+	textarea{
+		width: 570px;
+		height: 172px;
+	}
+	.btn{
+		width: 180px;
+		height: 40px;
+		background-color: $sea_color;
+		color: #fff;
+		cursor: pointer;
+		border: 0 none;
+		margin-top: 19px;
+	}
+	.right{
+		background-color: #f3f3f3;
+			p{
+				font-size: 13px;
+			}
+	}
+}
+
